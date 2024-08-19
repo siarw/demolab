@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
-  content: ['./index.html'],
+  content: ['dist/index.html'],
   theme: {
     extend: {
       colors: {
