@@ -21,7 +21,9 @@
           <ul class="flex space-x-6 text-white">
             <li><a href="#about" class="hover:text-orange-500">About</a></li>
             <li>
-              <a href="#application" class="hover:text-orange-500"
+              <a
+                href="#application"
+                class="hover:text-orange-500 hover:underline"
                 >Application</a
               >
             </li>
@@ -36,21 +38,21 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="bg-white py-20">
+    <section id="hero" class="bg-white py-20">
       <div class="container mx-auto">
-        <h2 class="mb-4 text-4xl font-bold text-orange-500">
+        <h2 class="mb-4 text-4xl font-bold text-dark-blue-900">
           Welcome to NL PhiLab
         </h2>
         <p class="mb-4 text-lg text-gray-600">
-          Where research breeds innovation.
+          ... where research breeds innovation.
         </p>
       </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="container mx-auto scroll-mt-16 py-10">
-      <h2 class="mb-6 text-3xl font-bold text-orange-500">About</h2>
-      <div class="mb-8 grid grid-cols-6 gap-4">
+      <h2 class="mb-6 text-3xl font-bold text-dark-blue-900">About</h2>
+      <div class="mb-8 grid grid-cols-1 gap-4 md:grid-cols-6">
         <!-- Left Column -->
         <div class="col-span-3 space-y-8">
           <div>
@@ -107,7 +109,10 @@
             </h3>
             <p class="mb-3 leading-normal text-gray-600">
               <strong
-                ><a class="hover:text-orange-500" , href="#funding"
+                ><a
+                  class="text-dark-blue-900 hover:text-orange-500"
+                  ,
+                  href="#funding"
                   >Funding</a
                 ></strong
               >&nbsp; Benefit from innovation seed funds of €200k per project.
@@ -115,7 +120,10 @@
 
             <p class="mb-3 leading-normal text-gray-600">
               <strong
-                ><a class="hover:text-orange-500" , href="#support-coaching"
+                ><a
+                  class="text-dark-blue-900 hover:text-orange-500"
+                  ,
+                  href="#support-coaching"
                   >Support & Coaching</a
                 ></strong
               >&nbsp; Get extensive guidance in science, technology, business,
@@ -123,7 +131,10 @@
             </p>
             <p class="mb-3 leading-normal text-gray-600">
               <strong
-                ><a class="hover:text-orange-500" , href="#workspace"
+                ><a
+                  class="text-dark-blue-900 hover:text-orange-500"
+                  ,
+                  href="#workspace"
                   >Workspace</a
                 ></strong
               >&nbsp; Enjoy free workspace at NL Space Campus in Noordwijk,
@@ -131,7 +142,10 @@
             </p>
             <p class="mb-3 leading-normal text-gray-600">
               <strong
-                ><a class="hover:text-orange-500" , href="#facilities"
+                ><a
+                  class="text-dark-blue-900 hover:text-orange-500"
+                  ,
+                  href="#facilities"
                   >Facilities</a
                 ></strong
               >&nbsp; Access modern labs, makerspaces, and other specialized
@@ -139,7 +153,10 @@
             </p>
             <p class="mb-3 leading-normal text-gray-600">
               <strong
-                ><a class="hover:text-orange-500" , href="#network"
+                ><a
+                  class="text-dark-blue-900 hover:text-orange-500"
+                  ,
+                  href="#network"
                   >Partner Network</a
                 ></strong
               >&nbsp; Leverage our expansive network to build valuable
@@ -232,7 +249,7 @@
     <!-- Application Section -->
     <section id="application" class="scroll-mt-16 bg-white py-20">
       <div class="container mx-auto">
-        <h2 class="mb-10 text-center text-3xl font-bold text-orange-500">
+        <h2 class="mb-10 text-3xl font-bold text-dark-blue-900">
           Application Steps
         </h2>
         <div class="relative flex items-center justify-between">
@@ -243,21 +260,22 @@
 
           <!-- Step 1 -->
           <div
-            class="relative z-10 mx-4 flex w-1/3 flex-col items-center rounded-lg bg-dark-blue-900 p-6 text-white shadow-md"
+            class="relative z-10 mx-4 flex w-1/3 flex-col rounded-lg bg-dark-blue-900 p-6 text-white shadow-md"
           >
             <div class="mb-2 text-2xl font-bold">1. Register and Explore</div>
-            <p class="text-center text-sm">
-              Register an account with us, explore our Guidance Tool (TO DO),
-              attend an Info Session, and submit an Idea Outline (TO DO).
+            <p class="text-sm">
+              Register an account with us, explore our
+              <span id="to-do">Guidance Tool</span>), attend an Info Session,
+              and submit an <span id="to-do">Idea Outline</span>.
             </p>
           </div>
 
           <!-- Step 2 -->
           <div
-            class="relative z-10 mx-4 flex w-1/3 flex-col items-center rounded-lg bg-dark-blue-900 p-6 text-white shadow-md"
+            class="relative z-10 mx-4 flex w-1/3 flex-col rounded-lg bg-dark-blue-900 p-6 text-white shadow-md"
           >
             <div class="mb-2 text-2xl font-bold">2. Prepare Proposal</div>
-            <p class="text-center text-sm">
+            <p class="text-sm">
               We offer contact hours for advice, connections to relevant
               partners, and feedback.
             </p>
@@ -265,10 +283,10 @@
 
           <!-- Step 3 -->
           <div
-            class="relative z-10 mx-4 flex w-1/3 flex-col items-center rounded-lg bg-dark-blue-900 p-6 text-white shadow-md"
+            class="relative z-10 mx-4 flex w-1/3 flex-col rounded-lg bg-dark-blue-900 p-6 text-white shadow-md"
           >
             <div class="mb-2 text-2xl font-bold">3. Submit and 🤞</div>
-            <p class="text-center text-sm">
+            <p class="text-sm">
               Submit your Project Proposal. Prepare for the evaluation, which
               will include an interview. Receive result.
             </p>
@@ -279,7 +297,7 @@
 
     <!-- Support and Resources Section -->
     <section id="support-resources-details" class="container mx-auto py-10">
-      <h2 class="mb-6 text-3xl font-bold text-orange-500">
+      <h2 class="mb-6 text-3xl font-bold text-dark-blue-900">
         Support and Resources
       </h2>
 
@@ -378,230 +396,239 @@
     </section>
 
     <!-- Partners Section -->
-    <section id="partners" class="container mx-auto scroll-mt-16 py-10">
-      <h2 class="mb-6 text-3xl font-bold text-orange-500">Partners</h2>
+    <section id="partners" class="mx-auto scroll-mt-16 bg-white py-10">
+      <div class="container mx-auto">
+        <h2 class="mb-6 text-3xl font-bold text-dark-blue-900">Partners</h2>
 
-      <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
-        <!-- Academic Partners -->
-        <div class="rounded-lg bg-white p-6 shadow-md">
-          <h3 class="mb-4 text-2xl font-bold text-dark-blue-900">
-            Academic Partners
-          </h3>
-          <div class="space-y-4 *:rounded-md *:bg-gray-100 *:p-4 *:shadow-sm">
-            <div>
-              <h4 class="text-xl font-semibold text-dark-blue-900">TU Delft</h4>
-              <p class="text-gray-600">
-                Leading expertise in space engineering with advanced facilities
-                for satellite and nanosatellite research.
-              </p>
-            </div>
-            <div>
-              <h4 class="text-xl font-semibold text-dark-blue-900">
-                University of Twente (ITC)
-              </h4>
-              <p class="text-gray-600">
-                Expertise in geospatial sciences with advanced facilities for
-                Earth observation and data processing.
-              </p>
-            </div>
-            <div>
-              <h4 class="text-xl font-semibold text-dark-blue-900">
-                TU/e innovation Space
-              </h4>
-              <p class="text-gray-600">
-                Innovation hub for challenge-based learning and student
-                entrepreneurship, focused on fast prototyping.
-              </p>
-            </div>
-            <div>
-              <h4 class="text-xl font-semibold text-dark-blue-900">
-                Leiden University
-              </h4>
-              <p class="text-gray-600">
-                Expertise in physics, optics, and AI, with strong ties to
-                advanced computational facilities.
-              </p>
-            </div>
-            <div>
-              <h4 class="text-xl font-semibold text-dark-blue-900">
-                Radboud University Radiolab
-              </h4>
-              <p class="text-gray-600">
-                Develops astronomical instrumentation for ground and space-based
-                applications, including the Event Horizon Telescope.
-              </p>
-            </div>
-            <div>
-              <h4 class="text-xl font-semibold text-dark-blue-900">
-                Rotterdam School of Management (RSM)
-              </h4>
-              <p class="text-gray-600">
-                Business school known for sustainability, innovation, and
-                leadership research, with strong business community ties.
-              </p>
-            </div>
-            <div>
-              <h4 class="text-xl font-semibold text-dark-blue-900">
-                Leiden-Delft-Erasmus Universities Alliance (LDE)
-              </h4>
-              <p class="text-gray-600">
-                Strategic partnership enhancing research impact through
-                collaboration on societal challenges and innovation.
-              </p>
+        <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
+          <!-- Academic Partners -->
+          <div class="rounded-lg bg-gray-100 p-6 shadow-md">
+            <h3 class="mb-4 text-2xl font-bold text-dark-blue-900">
+              Academic Partners
+            </h3>
+            <div class="space-y-4 *:rounded-md *:bg-white *:p-4 *:shadow-sm">
+              <div>
+                <h4 class="text-xl font-semibold text-dark-blue-900">
+                  TU Delft
+                </h4>
+                <p class="text-gray-600">
+                  Leading expertise in space engineering with advanced
+                  facilities for satellite and nanosatellite research.
+                </p>
+              </div>
+              <div>
+                <h4 class="text-xl font-semibold text-dark-blue-900">
+                  University of Twente (ITC)
+                </h4>
+                <p class="text-gray-600">
+                  Expertise in geospatial sciences with advanced facilities for
+                  Earth observation and data processing.
+                </p>
+              </div>
+              <div>
+                <h4 class="text-xl font-semibold text-dark-blue-900">
+                  TU/e innovation Space
+                </h4>
+                <p class="text-gray-600">
+                  Innovation hub for challenge-based learning and student
+                  entrepreneurship, focused on fast prototyping.
+                </p>
+              </div>
+              <div>
+                <h4 class="text-xl font-semibold text-dark-blue-900">
+                  Leiden University
+                </h4>
+                <p class="text-gray-600">
+                  Expertise in physics, optics, and AI, with strong ties to
+                  advanced computational facilities.
+                </p>
+              </div>
+              <div>
+                <h4 class="text-xl font-semibold text-dark-blue-900">
+                  Radboud University Radiolab
+                </h4>
+                <p class="text-gray-600">
+                  Develops astronomical instrumentation for ground and
+                  space-based applications, including the Event Horizon
+                  Telescope.
+                </p>
+              </div>
+              <div>
+                <h4 class="text-xl font-semibold text-dark-blue-900">
+                  Rotterdam School of Management (RSM)
+                </h4>
+                <p class="text-gray-600">
+                  Business school known for sustainability, innovation, and
+                  leadership research, with strong business community ties.
+                </p>
+              </div>
+              <div>
+                <h4 class="text-xl font-semibold text-dark-blue-900">
+                  Leiden-Delft-Erasmus Universities Alliance (LDE)
+                </h4>
+                <p class="text-gray-600">
+                  Strategic partnership enhancing research impact through
+                  collaboration on societal challenges and innovation.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- Technology Partners -->
-        <div class="rounded-lg bg-white p-6 shadow-md">
-          <h3 class="mb-4 text-2xl font-bold text-dark-blue-900">
-            Technology Partners
-          </h3>
-          <div class="space-y-4 *:rounded-md *:bg-gray-100 *:p-4 *:shadow-sm">
-            <div>
-              <h4 class="text-xl font-semibold text-dark-blue-900">S[&]T</h4>
-              <p class="text-gray-600">
-                Transforms space data into actionable insights, with a focus on
-                Earth Observation and security domains.
-              </p>
-            </div>
-            <div>
-              <h4 class="text-xl font-semibold text-dark-blue-900">
-                Royal NLR - Netherlands Aerospace Centre
-              </h4>
-              <p class="text-gray-600">
-                Provides innovative solutions, technical expertise, and
-                state-of-the-art facilities for space ambitions.
-              </p>
-            </div>
-            <div>
-              <h4 class="text-xl font-semibold text-dark-blue-900">
-                TNO Space
-              </h4>
-              <p class="text-gray-600">
-                Active in Earth Observation, satellite communication, and
-                military space applications with cutting-edge instrumentation.
-              </p>
-            </div>
-            <div>
-              <h4 class="text-xl font-semibold text-dark-blue-900">
-                PLNT Leiden
-              </h4>
-              <p class="text-gray-600">
-                Empowers innovative entrepreneurs and researchers through a
-                supportive community and technology resources.
-              </p>
-            </div>
-            <div>
-              <h4 class="text-xl font-semibold text-dark-blue-900">
-                ATG Europe
-              </h4>
-              <p class="text-gray-600">
-                Provides engineering services to the European space ecosystem
-                with expertise in technical support and reviews.
-              </p>
-            </div>
-            <div>
-              <h4 class="text-xl font-semibold text-dark-blue-900">
-                SCN Avatar
-              </h4>
-              <p class="text-gray-600">
-                Specializes in virtual and augmented reality applications for
-                the space sector, enhancing data visualization.
-              </p>
-            </div>
-            <div>
-              <h4 class="text-xl font-semibold text-dark-blue-900">ZemQuest</h4>
-              <p class="text-gray-600">
-                Provides emission-free, high-density energy solutions for
-                industrial machinery, with a focus on sustainability.
-              </p>
-            </div>
-            <div>
-              <h4 class="text-xl font-semibold text-dark-blue-900">
-                Ubotica Technologies
-              </h4>
-              <p class="text-gray-600">
-                Offers onboard AI-powered processing solutions for real-time
-                Earth Observation data insights.
-              </p>
-            </div>
-            <div>
-              <h4 class="text-xl font-semibold text-dark-blue-900">Cosine</h4>
-              <p class="text-gray-600">
-                Develops optical and in-situ measurement systems for diverse
-                environments, including space and industry.
-              </p>
-            </div>
-            <div>
-              <h4 class="text-xl font-semibold text-dark-blue-900">CGI</h4>
-              <p class="text-gray-600">
-                Delivers secure, mission-critical space applications with
-                extensive experience in satellite navigation and Earth
-                observation.
-              </p>
+          <!-- Technology Partners -->
+          <div class="rounded-lg bg-gray-100 p-6 shadow-md">
+            <h3 class="mb-4 text-2xl font-bold text-dark-blue-900">
+              Technology Partners
+            </h3>
+            <div class="space-y-4 *:rounded-md *:bg-white *:p-4 *:shadow-sm">
+              <div>
+                <h4 class="text-xl font-semibold text-dark-blue-900">S[&]T</h4>
+                <p class="text-gray-600">
+                  Transforms space data into actionable insights, with a focus
+                  on Earth Observation and security domains.
+                </p>
+              </div>
+              <div>
+                <h4 class="text-xl font-semibold text-dark-blue-900">
+                  Royal NLR - Netherlands Aerospace Centre
+                </h4>
+                <p class="text-gray-600">
+                  Provides innovative solutions, technical expertise, and
+                  state-of-the-art facilities for space ambitions.
+                </p>
+              </div>
+              <div>
+                <h4 class="text-xl font-semibold text-dark-blue-900">
+                  TNO Space
+                </h4>
+                <p class="text-gray-600">
+                  Active in Earth Observation, satellite communication, and
+                  military space applications with cutting-edge instrumentation.
+                </p>
+              </div>
+              <div>
+                <h4 class="text-xl font-semibold text-dark-blue-900">
+                  PLNT Leiden
+                </h4>
+                <p class="text-gray-600">
+                  Empowers innovative entrepreneurs and researchers through a
+                  supportive community and technology resources.
+                </p>
+              </div>
+              <div>
+                <h4 class="text-xl font-semibold text-dark-blue-900">
+                  ATG Europe
+                </h4>
+                <p class="text-gray-600">
+                  Provides engineering services to the European space ecosystem
+                  with expertise in technical support and reviews.
+                </p>
+              </div>
+              <div>
+                <h4 class="text-xl font-semibold text-dark-blue-900">
+                  SCN Avatar
+                </h4>
+                <p class="text-gray-600">
+                  Specializes in virtual and augmented reality applications for
+                  the space sector, enhancing data visualization.
+                </p>
+              </div>
+              <div>
+                <h4 class="text-xl font-semibold text-dark-blue-900">
+                  ZemQuest
+                </h4>
+                <p class="text-gray-600">
+                  Provides emission-free, high-density energy solutions for
+                  industrial machinery, with a focus on sustainability.
+                </p>
+              </div>
+              <div>
+                <h4 class="text-xl font-semibold text-dark-blue-900">
+                  Ubotica Technologies
+                </h4>
+                <p class="text-gray-600">
+                  Offers onboard AI-powered processing solutions for real-time
+                  Earth Observation data insights.
+                </p>
+              </div>
+              <div>
+                <h4 class="text-xl font-semibold text-dark-blue-900">Cosine</h4>
+                <p class="text-gray-600">
+                  Develops optical and in-situ measurement systems for diverse
+                  environments, including space and industry.
+                </p>
+              </div>
+              <div>
+                <h4 class="text-xl font-semibold text-dark-blue-900">CGI</h4>
+                <p class="text-gray-600">
+                  Delivers secure, mission-critical space applications with
+                  extensive experience in satellite navigation and Earth
+                  observation.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- Service and Community Partners -->
-        <div class="rounded-lg bg-white p-6 shadow-md">
-          <h3 class="mb-4 text-2xl font-bold text-dark-blue-900">
-            Service and Community Partners
-          </h3>
-          <div class="space-y-4 *:rounded-md *:bg-gray-100 *:p-4 *:shadow-sm">
-            <div>
-              <h4 class="text-xl font-semibold text-dark-blue-900">
-                InnovationQuarter
-              </h4>
-              <p class="text-gray-600">
-                Regional development agency supporting companies with
-                innovation, investment, and internationalization in
-                Zuid-Holland.
-              </p>
-            </div>
-            <div>
-              <h4 class="text-xl font-semibold text-dark-blue-900">
-                Provincie Zuid-Holland
-              </h4>
-              <p class="text-gray-600">
-                Governs Zuid-Holland, playing a key role in developing the space
-                sector in the region.
-              </p>
-            </div>
-            <div>
-              <h4 class="text-xl font-semibold text-dark-blue-900">SpaceNed</h4>
-              <p class="text-gray-600">
-                Trade association representing Dutch space industry players,
-                fostering collaboration and innovation.
-              </p>
-            </div>
-            <div>
-              <h4 class="text-xl font-semibold text-dark-blue-900">
-                Leidse Instrumentmakers School (LiS)
-              </h4>
-              <p class="text-gray-600">
-                Vocational school specializing in precision technology, crucial
-                for developing space research instrumentation.
-              </p>
-            </div>
-            <div>
-              <h4 class="text-xl font-semibold text-dark-blue-900">
-                InHolland University of Applied Sciences
-              </h4>
-              <p class="text-gray-600">
-                Fosters talent and entrepreneurship in the space sector through
-                specialized programs and industry collaboration.
-              </p>
-            </div>
-            <div>
-              <h4 class="text-xl font-semibold text-dark-blue-900">
-                Groundstation dotSPACE
-              </h4>
-              <p class="text-gray-600">
-                Non-profit focused on remote sensing technologies, fostering
-                innovation and policy feedback in Earth observation.
-              </p>
+          <!-- Service and Community Partners -->
+          <div class="rounded-lg bg-gray-100 p-6 shadow-md">
+            <h3 class="mb-4 text-2xl font-bold text-dark-blue-900">
+              Service and Community Partners
+            </h3>
+            <div class="space-y-4 *:rounded-md *:bg-white *:p-4 *:shadow-sm">
+              <div>
+                <h4 class="text-xl font-semibold text-dark-blue-900">
+                  InnovationQuarter
+                </h4>
+                <p class="text-gray-600">
+                  Regional development agency supporting companies with
+                  innovation, investment, and internationalization in
+                  Zuid-Holland.
+                </p>
+              </div>
+              <div>
+                <h4 class="text-xl font-semibold text-dark-blue-900">
+                  Provincie Zuid-Holland
+                </h4>
+                <p class="text-gray-600">
+                  Governs Zuid-Holland, playing a key role in developing the
+                  space sector in the region.
+                </p>
+              </div>
+              <div>
+                <h4 class="text-xl font-semibold text-dark-blue-900">
+                  SpaceNed
+                </h4>
+                <p class="text-gray-600">
+                  Trade association representing Dutch space industry players,
+                  fostering collaboration and innovation.
+                </p>
+              </div>
+              <div>
+                <h4 class="text-xl font-semibold text-dark-blue-900">
+                  Leidse Instrumentmakers School (LiS)
+                </h4>
+                <p class="text-gray-600">
+                  Vocational school specializing in precision technology,
+                  crucial for developing space research instrumentation.
+                </p>
+              </div>
+              <div>
+                <h4 class="text-xl font-semibold text-dark-blue-900">
+                  InHolland University of Applied Sciences
+                </h4>
+                <p class="text-gray-600">
+                  Fosters talent and entrepreneurship in the space sector
+                  through specialized programs and industry collaboration.
+                </p>
+              </div>
+              <div>
+                <h4 class="text-xl font-semibold text-dark-blue-900">
+                  Groundstation dotSPACE
+                </h4>
+                <p class="text-gray-600">
+                  Non-profit focused on remote sensing technologies, fostering
+                  innovation and policy feedback in Earth observation.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -610,7 +637,7 @@
 
     <!-- FAQ Section -->
     <section id="faq" class="container mx-auto scroll-mt-16 py-10">
-      <h2 class="mb-6 text-3xl font-bold text-orange-500">
+      <h2 class="mb-6 text-3xl font-bold text-dark-blue-900">
         Frequently Asked Questions
       </h2>
       <div class="space-y-4">
@@ -619,12 +646,13 @@
             Can I apply?
           </h3>
           <p class="text-gray-600">
-            To determine your eligibility, please use our Guidance Tool (TO DO).
-            Generally, applicants must be a Dutch legal entity (such as an SME,
-            Industry, Research Organisation, or University), or the proposed
-            activities must have a significant impact in the Netherlands. We
-            also recommend attending our Info Sessions and submitting a Idea
-            Outline (TO DO).
+            To determine your eligibility, please use our
+            <span id="to-do">Guidance Tool</span>. Generally, applicants must be
+            a Dutch legal entity (such as an SME, Industry, Research
+            Organisation, or University), or the proposed activities must have a
+            significant impact in the Netherlands. We also recommend attending
+            our Info Sessions and submitting a
+            <span id="to-do">Idea Outline</span>.
           </p>
         </div>
 
@@ -638,14 +666,14 @@
           </p>
         </div>
 
-        <div class="rounded-lg bg-white p-6 shadow-md">
+        <div class="rounded-lg bg-white p-6 shadow-md *:mb-2">
           <h3 class="mb-2 text-2xl font-semibold text-dark-blue-900">
             What can the financial incentive be spent on?
           </h3>
           <p class="text-gray-600">
             The financial incentive can be spent on the following:
           </p>
-          <ul class="list-inside list-disc pl-4 text-gray-600">
+          <ul class="list-inside list-disc pl-4 text-gray-600 *:mb-2">
             <li>Staff costs (up to 50% of the total budget).</li>
             <li>Subcontracting costs.</li>
             <li>Access to data sources or intellectual property.</li>
@@ -662,11 +690,11 @@
 
         <div class="rounded-lg bg-white p-6 shadow-md">
           <h3 class="mb-2 text-2xl font-semibold text-dark-blue-900">
-            Do I need to submit an Idea Outline?
+            Do I need to submit an <span id="to-do">Idea Outline</span>?
           </h3>
           <p class="text-gray-600">
-            Submitting an Idea Outline is not mandatory, but it is strongly
-            recommended.
+            Submitting an <span id="to-do">Idea Outline</span> is optional, but
+            it is strongly recommended.
           </p>
         </div>
 
@@ -680,31 +708,31 @@
           </p>
         </div>
 
-        <div class="rounded-lg bg-white p-6 shadow-md">
+        <div class="rounded-lg bg-white p-6 shadow-md *:mb-2">
           <h3 class="mb-2 text-2xl font-semibold text-dark-blue-900">
             How is IP dealt with?
           </h3>
           <p class="text-gray-600">
-            Our approach to Intellectual Property (IP) management is as follows:
+            Our approach to Intellectual Property Rights (IPR) management is as
+            follows:
           </p>
-          <ul>
+          <ul class="list-inside list-disc pl-4 text-gray-600 *:mb-2">
             <li>
-              <strong>Background IP:</strong> Research teams may bring existing
-              IP from their university into the project. This IP remains under
-              the management of the originating university, ensuring that
+              Research teams may bring existing intellectual property (IP) from
+              their university into the project. This "background IP" remains
+              under the management of the originating university, ensuring that
               pre-existing rights are respected and seamlessly integrated into
               the new research.
             </li>
+
             <li>
-              <strong>Foreground IP:</strong> New IP generated during the funded
-              projects remains with the research team or the associated
-              commercial entity or spinoff. This approach encourages teams to
-              innovate freely, knowing that they retain ownership of their
-              discoveries.
+              New, foreground IP generated during the funded projects remains
+              with the research team or the associated commercial entity or
+              spinoff. This approach encourages teams to innovate freely,
+              knowing that they retain ownership of their discoveries.
             </li>
             <li>
-              <strong>NL PhiLab Rights:</strong> NL PhiLab does not hold any
-              Intellectual Property Rights (IPR) from the projects. However, it
+              NL PhiLab does not hold any IPR from the projects. However, it
               retains a non-exclusive, royalty-free license to use any generated
               IP for educational and research purposes. This license is strictly
               limited to research in regional, national, and European projects
@@ -716,18 +744,22 @@
           <p class="text-gray-600"></p>
         </div>
 
-        <div class="rounded-lg bg-white p-6 shadow-md">
+        <div class="rounded-lg bg-white p-6 shadow-md *:mb-2">
           <h3 class="mb-2 text-2xl font-semibold text-dark-blue-900">
             What is the difference between NL PhiLab and ESA BIC?
           </h3>
           <p class="text-gray-600">
             The key differences between NL PhiLab and ESA BIC are as follows:
           </p>
-          <ul class="list-inside list-disc pl-4 text-gray-600">
+          <ul class="list-inside list-disc pl-4 text-gray-600 *:mb-2">
             <li>
-              The Technology Readiness Level (TRL) for ESA BIC applications is
-              typically be between 4 and 6, while the TRL for PhiLab can be at
-              any level.
+              ESA BIC applications usually relies on technology at a
+              <a
+                href="https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Shaping_the_Future/Technology_Readiness_Levels_TRL"
+                >Technology Readiness Level</a
+              >
+              (TRL) typically be between 4 and 6, while NL PhiLab can rely on
+              technology at any TRL.
             </li>
             <li>
               If your business model is fully developed, ESA BIC is more
@@ -748,7 +780,8 @@
           </h3>
           <p class="text-gray-600">
             For detailed information on the evaluation criteria, please refer to
-            the Documentation (TO DO).
+            the
+            <span id="to-do">Documentation</span>
           </p>
         </div>
 
@@ -778,7 +811,7 @@
 
     <!-- Team Section -->
     <section id="team" class="container mx-auto scroll-mt-16 py-10">
-      <h2 class="mb-6 text-3xl font-bold text-orange-500">Team</h2>
+      <h2 class="mb-6 text-3xl font-bold text-dark-blue-900">Team</h2>
       <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
         <!-- Team Member 1 -->
         <div class="rounded-lg bg-white p-6 shadow-md">
