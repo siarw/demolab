@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+#to-do {
+  @apply wiggly-underline;
+}
+.wiggly-underline {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
