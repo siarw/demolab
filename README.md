@@ -7,9 +7,7 @@ Steps to build:
 npm run build:prod
 
 git add .
-
 git commit -m "Save changes before deployment"
-
 git push
 
 git checkout gh-pages
