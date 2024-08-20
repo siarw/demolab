@@ -13,13 +13,10 @@ git push
 git checkout gh-pages
 
 git checkout main -- index.html
-
 git checkout main -- dist/
 
 git add .
-
 git commit -m "Deploy updated files"
-
 git push
 
 git checkout main
