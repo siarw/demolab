@@ -13,6 +13,7 @@ git push
 git checkout gh-pages
 
 git checkout main -- index.html
+git checkout main -- guidance-tool.html
 git checkout main -- dist/
 git checkout main -- assets/
 
