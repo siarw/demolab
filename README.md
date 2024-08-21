@@ -14,6 +14,7 @@ git checkout gh-pages
 
 git checkout main -- index.html
 git checkout main -- dist/
+git checkout main -- assets/
 
 git add .
 git commit -m "Deploy updated files"
