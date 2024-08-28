@@ -3,6 +3,10 @@
   <head>
     <link rel="preconnect" href="https://rsms.me/" />
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
     <link href="dist/output.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,73 +18,133 @@
       <div class="container mx-auto flex items-center justify-between">
         <div>
           <h1 class="text-3xl font-bold text-white">
-            <a href="#" class="hover:text-orange-500">NL PhiLab</a>
+            <a href="index.html#" class="hover:text-orange-500">NL PhiLab</a>
           </h1>
           <p class="text-sm text-white">a part of ESA PhiLabNET</p>
         </div>
         <nav>
           <ul class="flex space-x-6 text-white">
             <li>
-              <a href="#about" class="hover:text-orange-500">About</a>
+              <a href="index.html#about" class="hover:text-orange-500">About</a>
             </li>
             <li>
-              <a href="#application" class="hover:text-orange-500"
+              <a href="index.html#application" class="hover:text-orange-500"
                 >Application</a
               >
             </li>
             <li>
-              <a href="#partners" class="hover:text-orange-500">Partners</a>
+              <a href="index.html#partners" class="hover:text-orange-500"
+                >Partners</a
+              >
             </li>
             <li>
-              <a href="#faq" class="hover:text-orange-500">FAQ</a>
+              <a href="index.html#faq" class="hover:text-orange-500">FAQ</a>
             </li>
             <li>
-              <a href="#team" class="hover:text-orange-500">Team</a>
+              <a href="index.html#team" class="hover:text-orange-500">Team</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
-    <body class="scroll-smooth bg-gray-100 text-gray-800"></body>
-      <div class="container mx-auto">
-        <h2 class="mb-4 text-4xl font-bold text-dark-blue-900">
-          Idea Outline
-        </h2>
 
-        <div class="bg-gray-100 p-8">
-            <div class="mb-8">
-                <h2 class="font-bold text-2xl mb-2">Title and Goals</h2>
-                <p>Explain the title of your project and sketch your primary goals. Why is NL PhiLab the place to carry out your project?</p>
-            </div>
-            <div class="mb-8">
-                <h2 class="font-bold text-2xl mb-2">Team Description</h2>
-                <p>Introduce the entity submitting the proposal and the key members of your team.</p>
-            </div>
-            <div class="mb-8">
-                <h2 class="font-bold text-2xl mb-2">State-of-the-Art</h2>
-                <p>What is the current state of the art in your field of technology? Describe the existing solutions and their applications.</p>
-            </div>
-            <div class="mb-8">
-                <h2 class="font-bold text-2xl mb-2">Innovative Technology</h2>
-                <p>Describe your innovative technology. What makes it groundbreaking? Also, indicate its current maturity level, particularly the Technology Readiness Level (TRL).</p>
-            </div>
-            <div class="mb-8">
-                <h2 class="font-bold text-2xl mb-2">Space Connection</h2>
-                <p>Explain how your project is connected to space. How does it integrate with, depend on or benefit the space industry?</p>
-            </div>
-            <div class="mb-8">
-                <h2 class="font-bold text-2xl mb-2">Market Potential</h2>
-                <p>Define your target market. Who are your prospective clients? How do you bring unique value to them?</p>
-            </div>
-            <div class="mb-8">
-                <h2 class="font-bold text-2xl mb-2">Risk Assessment</h2>
-                <p>Identify the potential risks associated with developing this technology. What challenges might you face, and how do you plan to address them?</p>
-            </div>
-            <div>
-                <h2 class="font-bold text-2xl mb-2">Your Answer</h2>
-                <textarea class="w-full h-32 resize-none border border-gray-300 rounded-md p-2"></textarea>
-            </div>
-        </div>
+    <!-- Main Content -->
+    <div class="container mx-auto py-16">
+      <h2 class="mb-8 text-4xl font-bold text-dark-blue-900">Idea Outline</h2>
+
+      <!-- Question 1 -->
+      <div class="mb-8">
+        <h2 class="mb-2 text-2xl font-bold">Title and Goals</h2>
+        <p class="mb-4 text-gray-700">
+          Share the title of your project and sketch your primary goals. What is
+          the intention behind your project, and what do you hope to achieve?
+        </p>
+        <textarea
+          class="h-32 w-full resize-none rounded-md border border-gray-300 p-2"
+          maxlength="1000"
+        ></textarea>
+      </div>
+
+      <!-- Question 2 -->
+      <div class="mb-8">
+        <h2 class="mb-2 text-2xl font-bold">Team Description</h2>
+        <p class="mb-4 text-gray-700">
+          Introduce the entity submitting the proposal and the key members of
+          your team.
+        </p>
+        <textarea
+          class="h-32 w-full resize-none rounded-md border border-gray-300 p-2"
+          maxlength="1000"
+        ></textarea>
+      </div>
+
+      <!-- Question 3 -->
+      <div class="mb-8">
+        <h2 class="mb-2 text-2xl font-bold">State-of-the-Art</h2>
+        <p class="mb-4 text-gray-700">
+          What is the current state of the art in your field of technology?
+          Describe the existing solutions and their applications.
+        </p>
+        <textarea
+          class="h-32 w-full resize-none rounded-md border border-gray-300 p-2"
+          maxlength="1000"
+        ></textarea>
+      </div>
+
+      <!-- Question 4 -->
+      <div class="mb-8">
+        <h2 class="mb-2 text-2xl font-bold">Innovative Technology</h2>
+        <p class="mb-4 text-gray-700">
+          Describe your innovative technology. What makes it groundbreaking?
+          Also, indicate its current maturity level, particularly the Technology
+          Readiness Level (TRL).
+        </p>
+        <textarea
+          class="h-32 w-full resize-none rounded-md border border-gray-300 p-2"
+          maxlength="1000"
+        ></textarea>
+      </div>
+
+      <!-- Question 5 -->
+      <div class="mb-8">
+        <h2 class="mb-2 text-2xl font-bold">Space Connection</h2>
+        <p class="mb-4 text-gray-700">
+          Explain how your project is connected to space. How does it integrate
+          with, depend on, or benefit the space industry?
+        </p>
+        <textarea
+          class="h-32 w-full resize-none rounded-md border border-gray-300 p-2"
+          maxlength="1000"
+        ></textarea>
+      </div>
+
+      <!-- Question 6 -->
+      <div class="mb-8">
+        <h2 class="mb-2 text-2xl font-bold">Market Potential</h2>
+        <p class="mb-4 text-gray-700">
+          Define your target market. Who are your prospective clients? How do
+          you bring unique value to them?
+        </p>
+        <textarea
+          class="h-32 w-full resize-none rounded-md border border-gray-300 p-2"
+          maxlength="1000"
+        ></textarea>
+      </div>
+
+      <!-- Question 7 -->
+      <div class="mb-8">
+        <h2 class="mb-2 text-2xl font-bold">Risk Assessment</h2>
+        <p class="mb-4 text-gray-700">
+          Identify the potential risks associated with developing this
+          technology. What challenges might you face, and how do you plan to
+          address them?
+        </p>
+        <textarea
+          class="h-32 w-full resize-none rounded-md border border-gray-300 p-2"
+          maxlength="1000"
+        ></textarea>
+      </div>
+    </div>
 
     <!-- Footer -->
     <footer class="bg-dark-blue-900 py-6 text-white">
