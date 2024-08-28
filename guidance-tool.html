@@ -18,28 +18,30 @@
       <div class="container mx-auto flex items-center justify-between">
         <div>
           <h1 class="text-3xl font-bold text-white">
-            <a href="#" class="hover:text-orange-500">NL PhiLab</a>
+            <a href="index.html" class="hover:text-orange-500">NL PhiLab</a>
           </h1>
           <p class="text-sm text-white">a part of ESA PhiLabNET</p>
         </div>
         <nav>
           <ul class="flex space-x-6 text-white">
             <li>
-              <a href="#about" class="hover:text-orange-500">About</a>
+              <a href="index.html#about" class="hover:text-orange-500">About</a>
             </li>
             <li>
-              <a href="#application" class="hover:text-orange-500"
+              <a href="index.html#application" class="hover:text-orange-500"
                 >Application</a
               >
             </li>
             <li>
-              <a href="#partners" class="hover:text-orange-500">Partners</a>
+              <a href="index.html#partners" class="hover:text-orange-500"
+                >Partners</a
+              >
             </li>
             <li>
-              <a href="#faq" class="hover:text-orange-500">FAQ</a>
+              <a href="index.html#faq" class="hover:text-orange-500">FAQ</a>
             </li>
             <li>
-              <a href="#team" class="hover:text-orange-500">Team</a>
+              <a href="index.html#team" class="hover:text-orange-500">Team</a>
             </li>
           </ul>
         </nav>
@@ -47,178 +49,138 @@
     </header>
 
     <!-- Main Content -->
-    <div class="container mx-auto py-16">
+    <div class="container mx-auto my-12">
       <h2 class="mb-8 text-4xl font-bold text-dark-blue-900">Guidance Tool</h2>
       <p class="mb-8 text-lg text-gray-700">
-        If your answer to all questions below is Yes, your team and project idea
-        will likely be eligible for NL PhiLab.
+        If your answer to all questions below is "Yes", your team and project
+        idea will likely be eligible for NL PhiLab.
       </p>
+    </div>
 
+    <div class="container mx-auto grid grid-cols-1 gap-4 md:grid-cols-6">
       <!-- Question 1 -->
-      <div class="grid-cols-1 md:grid-cols-6">
-        <p class="col-span-1 mb-2 text-xl font-bold md:col-span-4">
+      <div class="col-span-1 md:col-span-4">
+        <p class="mb-2 text-lg">
           1. Is your research team part of a legal entity established in an ESA
           Member State?
         </p>
-        <div class="col-span-1 flex justify-end space-x-4 md:col-span-2">
-          <div>
-            <input
-              type="radio"
-              id="q1-yes"
-              name="q1"
-              value="yes"
-              class="mr-1"
-            />
-            <label for="q1-yes" class="text-gray-700">Yes</label>
-          </div>
-          <div>
-            <input type="radio" id="q1-no" name="q1" value="no" class="mr-1" />
-            <label for="q1-no" class="text-gray-700">No</label>
-          </div>
+      </div>
+      <div class="col-span-1 md:col-span-2">
+        <div class="flex items-center">
+          <input type="radio" id="q1-yes" name="q1" value="yes" class="mr-1" />
+          <label for="q1-yes" class="text-gray-700">Yes</label>
+        </div>
+        <div class="flex items-center">
+          <input type="radio" id="q1-no" name="q1" value="no" class="mr-1" />
+          <label for="q1-no" class="text-gray-700">No</label>
         </div>
       </div>
 
       <!-- Question 2 -->
-      <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">
+      <div class="col-span-1 md:col-span-4">
+        <p class="mb-2 text-lg">
           2. Does your project have a clear connection to space technology or
           utilize space systems/space-based services?
-        </h2>
-        <div class="flex justify-end space-x-4">
-          <div>
-            <input
-              type="radio"
-              id="q2-yes"
-              name="q2"
-              value="yes"
-              class="mr-1"
-            />
-            <label for="q2-yes" class="text-gray-700">Yes</label>
-          </div>
-          <div>
-            <input type="radio" id="q2-no" name="q2" value="no" class="mr-1" />
-            <label for="q2-no" class="text-gray-700">No</label>
-          </div>
+        </p>
+      </div>
+      <div class="col-span-1 md:col-span-2">
+        <div class="flex items-center">
+          <input type="radio" id="q2-yes" name="q2" value="yes" class="mr-1" />
+          <label for="q2-yes" class="text-gray-700">Yes</label>
+        </div>
+        <div class="flex items-center">
+          <input type="radio" id="q2-no" name="q2" value="no" class="mr-1" />
+          <label for="q2-no" class="text-gray-700">No</label>
         </div>
       </div>
 
       <!-- Question 3 -->
-      <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">
+      <div class="col-span-1 md:col-span-4">
+        <p class="mb-2 text-lg">
           3. Does your project idea have potential commercial market value?
-        </h2>
-        <div class="flex justify-end space-x-4">
-          <div>
-            <input
-              type="radio"
-              id="q3-yes"
-              name="q3"
-              value="yes"
-              class="mr-1"
-            />
-            <label for="q3-yes" class="text-gray-700">Yes</label>
-          </div>
-          <div>
-            <input type="radio" id="q3-no" name="q3" value="no" class="mr-1" />
-            <label for="q3-no" class="text-gray-700">No</label>
-          </div>
+        </p>
+      </div>
+      <div class="col-span-1 md:col-span-2">
+        <div class="flex items-center">
+          <input type="radio" id="q3-yes" name="q3" value="yes" class="mr-1" />
+          <label for="q3-yes" class="text-gray-700">Yes</label>
+        </div>
+        <div class="flex items-center">
+          <input type="radio" id="q3-no" name="q3" value="no" class="mr-1" />
+          <label for="q3-no" class="text-gray-700">No</label>
         </div>
       </div>
 
       <!-- Question 4 -->
-      <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">
+      <div class="col-span-1 md:col-span-4">
+        <p class="mb-2 text-lg">
           4. Is the proposed project idea innovative, disruptive, and based on
           solid research-driven evidence?
-        </h2>
-        <div class="flex justify-end space-x-4">
-          <div>
-            <input
-              type="radio"
-              id="q4-yes"
-              name="q4"
-              value="yes"
-              class="mr-1"
-            />
-            <label for="q4-yes" class="text-gray-700">Yes</label>
-          </div>
-          <div>
-            <input type="radio" id="q4-no" name="q4" value="no" class="mr-1" />
-            <label for="q4-no" class="text-gray-700">No</label>
-          </div>
+        </p>
+      </div>
+      <div class="col-span-1 md:col-span-2">
+        <div class="flex items-center">
+          <input type="radio" id="q4-yes" name="q4" value="yes" class="mr-1" />
+          <label for="q4-yes" class="text-gray-700">Yes</label>
+        </div>
+        <div class="flex items-center">
+          <input type="radio" id="q4-no" name="q4" value="no" class="mr-1" />
+          <label for="q4-no" class="text-gray-700">No</label>
         </div>
       </div>
 
       <!-- Question 5 -->
-      <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">
+      <div class="col-span-1 md:col-span-4">
+        <p class="mb-2 text-lg">
           5. Can you demonstrate that the research activity will deliver a
           benefit to NL PhiLab and the Netherlands?
-        </h2>
-        <div class="flex justify-end space-x-4">
-          <div>
-            <input
-              type="radio"
-              id="q5-yes"
-              name="q5"
-              value="yes"
-              class="mr-1"
-            />
-            <label for="q5-yes" class="text-gray-700">Yes</label>
-          </div>
-          <div>
-            <input type="radio" id="q5-no" name="q5" value="no" class="mr-1" />
-            <label for="q5-no" class="text-gray-700">No</label>
-          </div>
+        </p>
+      </div>
+      <div class="col-span-1 md:col-span-2">
+        <div class="flex items-center">
+          <input type="radio" id="q5-yes" name="q5" value="yes" class="mr-1" />
+          <label for="q5-yes" class="text-gray-700">Yes</label>
+        </div>
+        <div class="flex items-center">
+          <input type="radio" id="q5-no" name="q5" value="no" class="mr-1" />
+          <label for="q5-no" class="text-gray-700">No</label>
         </div>
       </div>
 
       <!-- Question 6 -->
-      <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">
-          6. Is the work proposed under this project not currently funded
-          through other means (e.g., ESA R&D, ESA Business Incubation, European
-          Commission)?
-        </h2>
-        <div class="flex justify-end space-x-4">
-          <div>
-            <input
-              type="radio"
-              id="q6-yes"
-              name="q6"
-              value="yes"
-              class="mr-1"
-            />
-            <label for="q6-yes" class="text-gray-700">Yes</label>
-          </div>
-          <div>
-            <input type="radio" id="q6-no" name="q6" value="no" class="mr-1" />
-            <label for="q6-no" class="text-gray-700">No</label>
-          </div>
+      <div class="col-span-1 md:col-span-4">
+        <p class="mb-2 text-lg">
+          6. Is the work proposed under this project to be funded exclusively
+          through NL PhiLab, without current funding from other sources (e.g.,
+          ESA R&D, ESA Business Incubation, European Commission)?
+        </p>
+      </div>
+      <div class="col-span-1 md:col-span-2">
+        <div class="flex items-center">
+          <input type="radio" id="q6-yes" name="q6" value="yes" class="mr-1" />
+          <label for="q6-yes" class="text-gray-700">Yes</label>
+        </div>
+        <div class="flex items-center">
+          <input type="radio" id="q6-no" name="q6" value="no" class="mr-1" />
+          <label for="q6-no" class="text-gray-700">No</label>
         </div>
       </div>
 
       <!-- Question 7 -->
-      <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">
+      <div class="col-span-1 md:col-span-4">
+        <p class="mb-2 text-lg">
           7. If collaborating with other entities, will your legal entity act as
           the sole contractor responsible for managing the funding?
-        </h2>
-        <div class="flex justify-end space-x-4">
-          <div>
-            <input
-              type="radio"
-              id="q7-yes"
-              name="q7"
-              value="yes"
-              class="mr-1"
-            />
-            <label for="q7-yes" class="text-gray-700">Yes</label>
-          </div>
-          <div>
-            <input type="radio" id="q7-no" name="q7" value="no" class="mr-1" />
-            <label for="q7-no" class="text-gray-700">No</label>
-          </div>
+        </p>
+      </div>
+      <div class="col-span-1 md:col-span-2">
+        <div class="flex items-center">
+          <input type="radio" id="q7-yes" name="q7" value="yes" class="mr-1" />
+          <label for="q7-yes" class="text-gray-700">Yes</label>
+        </div>
+        <div class="flex items-center">
+          <input type="radio" id="q7-no" name="q7" value="no" class="mr-1" />
+          <label for="q7-no" class="text-gray-700">No</label>
         </div>
       </div>
     </div>
