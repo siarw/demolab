@@ -3,9 +3,9 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
   content: [
     './index.html',
-    'index_copy.html',
-    'idea-outline.html',
-    'guidance-tool.html',
+    './index_copy.html',
+    './idea-outline.html',
+    './guidance-tool.html',
   ],
   theme: {
     extend: {
