@@ -13,7 +13,7 @@ git push
 git checkout gh-pages
 
 git checkout main -- index.html
-git checkout main -- guidance-tool.html
+git checkout main -- eligibility-checklist.html
 git checkout main -- idea-outline.html
 git checkout main -- call-for-projects.html
 git checkout main -- dist/

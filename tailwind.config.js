@@ -5,7 +5,7 @@ module.exports = {
     './index.html',
     './index_copy.html',
     './idea-outline.html',
-    './guidance-tool.html',
+    './eligibility-checklist.html',
     './call-for-projects.html',
   ],
   theme: {
