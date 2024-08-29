@@ -6,6 +6,7 @@ module.exports = {
     './index_copy.html',
     './idea-outline.html',
     './guidance-tool.html',
+    './call-for-projects.html',
   ],
   theme: {
     extend: {
