@@ -10,11 +10,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        'orange-500': '#F97316',
-        'orange-600': '#EA580C',
-        'dark-blue-900': '#2E4A7A',
-      },
+      colors: {},
       scrollBehavior: 'smooth',
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
