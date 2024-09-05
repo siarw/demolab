@@ -21,6 +21,6 @@ git checkout main -- assets/
 
 git add .
 git commit -m "Deploy updated files"
-git push
+git push origin gh-pages
 
 git checkout main
